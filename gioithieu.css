@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #00CC33;
+    
+}
+/*header/blog Title */
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #00CC33;
+    color: black;
+}
+.anh{
+    width: 100%;
+    height: 500px;
+}
+.header h1 {
+    font-size: 40px;
+}
+
+.header p {
+    font-size: 20px;
+}
+/* style the top navigation bar*/
+.topnav {
+    overflow: hidden;
+    background-color: rgb(205, 255, 243);
+}
+/* Định dạng link điều hướng */
+.topnav a {
+    float: left;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Thay đổi màu liên kết khi di chuột qua */
+.topnav a:hover {
+    background-color: blue;
+    color:darkgray;
+}
+/* cột trái */
+.rightcolumn {
+    float: right;
+    width: 73%;
+}
+.row .rightcolumn .card-news {
+    width: 25%;
+    height: 600px;
+}
+.row .rightcolumn .images{
+    width:195px;
+    height: 200px;
+}
+/* cột phải */
+.leftcolumn {
+    float: left;
+    width: 27%;
+    background-color: tan;
+    padding: 20px;
+}
+.card.images {
+    width:195px;
+    height: 200px;
+}
+
+/*hình ảnh bài viết*/
+.images {
+    width: 50%;
+    height:100px;
+}
+/* thêm đinh dạng thẻ cho bài viết */
+div .card-news :hover {
+    transform: scale(1.05);
+}
+.card-news a:hover{
+    padding: 3px;
+    margin: 0.5px;
+    border: 8px solid red;
+    border-radius: 5px 5px 5px 5px;
+    background-color: palevioletred;
+    box-shadow: 0 0 50 black;
+}
+.card-news {
+    width: 50%;
+    background-color: powderblue;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+}
+/*clear float khác sau các cột */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Thêm định dạng thẻ nội dung thêm */
+.card {
+    background-color: darkgray;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+/*footer */
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: blanchedalmond;
+    margin-top: 10px;
+    bottom : 0;
+}

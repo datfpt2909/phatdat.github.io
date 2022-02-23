@@ -1,0 +1,50 @@
+/* cột phải */
+.rightcolumn {
+    float: right;
+    width: 73%;
+}    
+.row .rightcolumn .card-news {
+    width: 28.5%;
+    height: 600px;
+}
+.rightcolumn .card-news a:hover {
+    background-color: blueviolet;
+    color:blueviolet;
+}
+/* cột trái */
+.leftcolumn {
+    float: left;
+    width: 27%;
+    background-color: rgb(243, 22, 169);
+    padding-left: 0px;
+}
+/*hình ảnh bài viết*/
+.images {
+    width: 100%;
+    height: 200px;
+}
+/* thêm đinh dạng thẻ cho bài viết */
+.card-news {
+    width: 25%;
+    background-color: rgb(18, 152, 230);
+    padding: 20px;
+    margin: 20px;
+    float: left;
+    border: 5px solid rgb(82, 79, 243);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 50 black;
+}
+.card-news a:hover{
+    padding: 3px;
+    margin: 0.5px;
+    border: 5px solid rgb(209, 12, 12);
+    border-radius: 5px 5px 5px 5px;
+    background-color: papayawhip;
+    box-shadow: 0 0 50 black;
+}
+/*clear float khác sau các cột */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
