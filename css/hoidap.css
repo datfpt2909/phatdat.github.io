@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #00CC33;
+    
+}
+/*header/blog Title */
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #00CC33;
+    color: black;
+}
+.anh{
+    width: 100%;
+    height: 500px;
+}
+.header h1 {
+    font-size: 40px;
+}
+
+.header p {
+    font-size: 20px;
+}
+/* style the top navigation bar*/
+.topnav {
+    overflow: hidden;
+    background-color: rgb(205, 255, 243);
+}
+/* Định dạng link điều hướng */
+.topnav a {
+    float: left;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Thay đổi màu liên kết khi di chuột qua */
+.topnav a:hover {
+    background-color: blue;
+    color:darkgray;
+}
+.container{
+    position: relative;
+    top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    height: 600px;
+    border: 2px solid black;
+    box-shadow: 0 0 15px red;
+}
+.container>iframe{
+    width: 75%;
+    height: 95%;
+    float: left;
+}
+.container>.right{
+    width: 23%;
+    height: 100%;
+    float: left;
+}
+.container>.right>a{
+    text-decoration: none;
+    height: 150px;
+}
+.container>.right>a>img{
+    width: 100%;
+    height: 150px;
+    padding: 8px;
+    text-align: center;
+}
+#footer b{
+    float: left; 
+    margin:0; 
+    text-align:center;
+}
+#footer img {
+    width:10%;
+    height: 90px;
+}
+#footer{
+    box-shadow: 0 0 3px gray;
+    border-radius: 3% 3% 3% 3%;
+    background: linear-gradient(-45deg, #f39477, #e974a1, #55badf, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 130px;
+}
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
